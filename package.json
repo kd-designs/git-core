@@ -1,0 +1,12 @@
+{
+  "name": "ts-git-core",
+  "version": "1.0.0",
+  "description": "Pure TypeScript Git internal object store, index staging, and Myers diff engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["git", "vcs", "diff", "blobs", "trees", "commits"]
+}
